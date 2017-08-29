@@ -170,11 +170,12 @@ footer {
 
     .gray-bg, .yellow-bg {
       text-align: center;
-      padding: 10px;
 
       a {
         font-weight: lighter;
         font-size: 20px;
+        padding: 10px;
+        display: block;
 
         // @media screen and (max-width: 767px) {
         //   font-size: 70px;

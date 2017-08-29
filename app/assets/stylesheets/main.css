@@ -146,11 +146,12 @@ footer {
 }
 .home-page .half-size .gray-bg, .home-page .half-size .yellow-bg {
   text-align: center;
-  padding: 10px;
 }
 .home-page .half-size .gray-bg a, .home-page .half-size .yellow-bg a {
   font-weight: lighter;
   font-size: 20px;
+  padding: 10px;
+  display: block;
 }
 .home-page .half-size .gray-bg a:hover, .home-page .half-size .yellow-bg a:hover {
   text-decoration: none;
