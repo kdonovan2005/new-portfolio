@@ -183,6 +183,14 @@ footer {
   min-height: 100vh;
   position: relative;
 
+  .note {
+    text-align: center;
+
+    ul {
+      list-style-type: none;
+    }
+  }
+
   .projects-slider {
     width: 90%;
     margin: 40px auto;
