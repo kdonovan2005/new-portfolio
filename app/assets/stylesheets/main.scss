@@ -104,6 +104,14 @@ body {
   }
 }
 
+a {
+  color: #f5ec48;
+
+  &:hover {
+    color: #6d6e71;
+  }
+}
+
 .main {
   padding: 20px;
   min-height: 60vh;

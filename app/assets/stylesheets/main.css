@@ -93,6 +93,12 @@ body {
 .yellow-bg a {
   color: #6d6e71;
 }
+a {
+  color: #f5ec48;
+}
+a:hover {
+  color: #6d6e71;
+}
 
 .main {
   padding: 20px;
