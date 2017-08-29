@@ -132,6 +132,10 @@ footer {
     top: 50%;
     transform: translateY(-50%);
 
+    // @media screen and (max-width: 767px) {
+    //   width: 100%;
+    // }
+
     div {
       img {
         width: 100%;
@@ -145,6 +149,10 @@ footer {
       a {
         font-weight: lighter;
         font-size: 20px;
+
+        // @media screen and (max-width: 767px) {
+        //   font-size: 70px;
+        // }
 
         &:hover {
           text-decoration: none;
