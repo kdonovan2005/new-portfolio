@@ -1,0 +1,28 @@
+<div class="main">
+  <div class="basics row">
+    <div class="image col-xs-12 col-sm-6">
+      <img src="<%= @project.photo %>" alt="">
+    </div>
+    <div class="details col-xs-12 col-sm-6">
+      <div class="text">
+        <h6><b>CLIENT:</b> <%= @project.client %></h6>
+        <h6><b>DATE:</b> <%= @project.complete %></h6>
+        <h6><b>ONLINE:</b> <a href="<%= @project.url %>">VIEW THE APPLICATION</a></h6>
+        <br>
+        <h6><b>TECH:</b>
+          <%= @project.tech %>
+        </h6>
+      </div>
+      <div class="yellow-shape">
+        <img src="http://i.imgur.com/4lUFId8.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="description">
+    <h3>{ ABOUT THE PROJECT }</h3>
+    <p>This a working example of a front end template that I created for a client. All of the client's photos and product images have been changed. The logo and name of the business have also been changed.</p>
+    <p>The product images are pictures from Bloomingdales.com, the logo and name of the business were made up (any similarity to a real business is completely coincidental.) The other photo assets (including header images, etc.) are from either pexels.com or stocksnap.io.</p>
+    <p>This application is intended to showcase the html, css, and javascript used to create the components of the front end template: as such, there is no backend functionality. All products, categories, and sub-categories have been manually loaded into the layout.</p>
+    <p>A note on links -- all of the main navigation categories will link to the dresses category page. All of the sub-category links from the categories page will link to 'casual dresses'. All of the sub-category products will link to the same product page.</p>
+  </div>
+</div>
