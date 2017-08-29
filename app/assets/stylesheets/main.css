@@ -213,8 +213,14 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
+.single-project .main .basics .image {
+  text-align: center;
+}
 .single-project .main .basics .image img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 300px;
+  width: auto;
+  margin: auto;
 }
 .single-project .main .basics .details {
   position: relative;
