@@ -323,6 +323,9 @@ footer {
   text-decoration: none;
 }
 
+.contact-page .main .note {
+  text-align: center;
+}
 .contact-page .main .social-icons span {
   display: block;
   text-align: center;
