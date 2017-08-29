@@ -124,7 +124,6 @@ body {
 
 a {
   color: #6d6e71;
-  font-weight: bold;
 
   &:hover {
     color: #f5ec48;
@@ -344,6 +343,12 @@ footer {
 
     .image {
       padding-bottom: 10px;
+    }
+
+    .post-flatiron {
+      a {
+        font-weight: bold;
+      }
     }
 
     .social-icons {

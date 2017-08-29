@@ -109,7 +109,6 @@ body {
 }
 a {
   color: #6d6e71;
-  font-weight: bold;
 }
 a:hover {
   color: #f5ec48;
@@ -280,6 +279,9 @@ footer {
 }
 .about-page .main .image {
   padding-bottom: 10px;
+}
+.about-page .main .post-flatiron a {
+  font-weight: bold;
 }
 .about-page .main .social-icons {
   text-align: center;
