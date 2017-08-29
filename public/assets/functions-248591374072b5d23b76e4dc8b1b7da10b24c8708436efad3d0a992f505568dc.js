@@ -1,0 +1,1 @@
+$(".mobile-open").click(function(){$(".mobile-show").toggleClass("yellow"),$(".photo-bg .nav").slideToggle()});

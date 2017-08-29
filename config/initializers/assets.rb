@@ -10,7 +10,7 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
 Rails.application.config.assets.precompile += %w(*.eot *.woff *.svg *.ttf *.woff2)
-Rails.application.config.assets.precompile += %w( fontello.css )
+Rails.application.config.assets.precompile += %w( fontello.scss )
 Rails.application.config.assets.precompile += %w( slick.css )
 Rails.application.config.assets.precompile += %w( main.css )
 Rails.application.config.assets.precompile += %w( jquery-3.2.1.min.js )
