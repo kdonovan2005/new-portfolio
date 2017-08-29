@@ -3,8 +3,8 @@
 //   centerMode: true,
 //   centerPadding: '60px',
 //   slidesToShow: 3,
-//   prevArrow: '<img src="http://i.imgur.com/jWg43m9.png"/>',
-//   nextArrow: '<img src="http://i.imgur.com/The9kds.png"/>',
+//   prevArrow: '<img src="https://i.imgur.com/jWg43m9.png"/>',
+//   nextArrow: '<img src="https://i.imgur.com/The9kds.png"/>',
 //   responsive: [
 //     {
 //       breakpoint: 768,
