@@ -208,6 +208,9 @@ footer {
 .single-project .main {
   padding: 20px;
 }
+.single-project .main .back {
+  padding: 0 0 20px 0;
+}
 .single-project .main .basics {
   width: 100%;
   display: flex;
