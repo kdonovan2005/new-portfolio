@@ -8,15 +8,15 @@
 <div class="projects-slider">
   <% @projects.each do |project| %>
     <div class="padded">
-      <a href="/projects/<%= project.id %>">
-        <div class="bordered">
+      <div class="bordered">
+        <a href="/projects/<%= project.id %>">
           <img src="<%= project.photo %>" alt="">
           <div class="gray-bg">
             <h4><%= project.title%></h4>
             <h5><%= project.tag_line %></h5>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   <% end %>
 </div>

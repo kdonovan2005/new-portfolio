@@ -83,6 +83,12 @@ body {
 .gray-bg {
   background: #6d6e71;
 }
+.gray-bg:hover {
+  background: #f5ec48;
+}
+.gray-bg:hover a {
+  color: #6d6e71;
+}
 .gray-bg a {
   color: #f5ec48;
 }
@@ -90,18 +96,25 @@ body {
 .yellow-bg {
   background: #f5ec48;
 }
+.yellow-bg:hover {
+  background: #6d6e71;
+}
+.yellow-bg:hover a {
+  color: #f5ec48;
+}
 .yellow-bg a {
   color: #6d6e71;
 }
 a {
-  color: #f5ec48;
+  color: #6d6e71;
+  font-weight: bold;
 }
 a:hover {
-  color: #6d6e71;
+  color: #f5ec48;
 }
 
 .main {
-  padding: 20px;
+  padding: 40px 20px;
   min-height: 60vh;
 }
 
