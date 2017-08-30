@@ -204,17 +204,18 @@ footer {
 
   .note {
     text-align: center;
-    margin: 20px;
+    margin: 20px 40px;
 
     ul {
       list-style-type: none;
+      padding: 0;
     }
   }
 
   .projects-slider {
-    width: 90%;
     margin: 20px auto;
     position: relative;
+    padding: 20px 40px;
 
     .slick-arrow {
       z-index: 100;

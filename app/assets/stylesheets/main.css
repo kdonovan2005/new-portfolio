@@ -171,15 +171,16 @@ footer {
 }
 .projects-page .note {
   text-align: center;
-  margin: 20px;
+  margin: 20px 40px;
 }
 .projects-page .note ul {
   list-style-type: none;
+  padding: 0;
 }
 .projects-page .projects-slider {
-  width: 90%;
-  margin: 20px auto;
+  margin: auto;
   position: relative;
+  padding: 20px 40px;
 }
 .projects-page .projects-slider .slick-arrow {
   z-index: 100;
