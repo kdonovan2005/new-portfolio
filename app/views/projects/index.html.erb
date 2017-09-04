@@ -5,9 +5,9 @@
     <li>An application that parses JSON data and completes some mathematical analytics on the associated data. Coded in Ruby.</li>
   </ul>
 </div>
-<div class="projects-slider">
+<div class="projects-slider row">
   <% @projects.each do |project| %>
-    <div class="padded">
+    <div class="padded col-xs-12 col-sm-6">
       <div class="bordered">
         <a href="/projects/<%= project.id %>">
           <img src="<%= project.photo %>" alt="">
