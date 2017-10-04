@@ -1,5 +1,5 @@
-.photo-bg {
-  background: url('https://i.imgur.com/HCtZB8L.jpg');
+/*.photo-bg {
+  background: url("https://i.imgur.com/HCtZB8L.jpg");
   background-size: cover;
   background-position: bottom;
   position: relative;
@@ -83,9 +83,6 @@ body {
 .gray-bg {
   background: #6d6e71;
 }
-.gray-bg a {
-  color: #f5ec48;
-}
 .gray-bg:hover {
   background: #f5ec48;
 }
@@ -93,21 +90,23 @@ body {
   color: #6d6e71;
   font-weight: bold;
 }
+.gray-bg a {
+  color: #f5ec48;
+}
 
 .yellow-bg {
   background: #f5ec48;
-}
-.yellow-bg a {
-  color: #6d6e71;
-  font-weight: bold;
 }
 .yellow-bg:hover {
   background: #6d6e71;
 }
 .yellow-bg:hover a {
   color: #f5ec48;
+  font-weight: bold;
 }
-
+.yellow-bg a {
+  color: #6d6e71;
+}
 a {
   color: #6d6e71;
 }
@@ -129,7 +128,7 @@ footer {
 }
 
 .home-page {
-  background: url('https://i.imgur.com/HCtZB8L.jpg');
+  background: url("https://i.imgur.com/HCtZB8L.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -179,7 +178,7 @@ footer {
   padding: 0;
 }
 .projects-page .projects-slider {
-  margin: 20px auto;
+  margin: auto;
   position: relative;
   padding: 20px 40px;
 }
@@ -229,43 +228,18 @@ footer {
   padding: 0 0 20px 0;
 }
 .single-project .main .basics {
-  display: flex;
   width: 100%;
+  display: flex;
   flex-wrap: wrap;
 }
 .single-project .main .basics .image {
   text-align: center;
-  position: relative;
 }
 .single-project .main .basics .image img {
   max-width: 100%;
   max-height: 300px;
   width: auto;
   margin: auto;
-}
-.single-project .main .basics .image:hover .rollover-link {
-  display: block;
-}
-.single-project .main .basics .image .rollover-link {
-  display: none;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.single-project .main .basics .image .rollover-link a {
-  color: white;
-  font-size: 26px;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.single-project .main .basics .image .rollover-link a:hover {
-  color: #f5ea58;
-  text-decoration: none;
 }
 .single-project .main .basics .details {
   position: relative;
@@ -413,5 +387,6 @@ footer {
   text-decoration: none;
 }
 .contact-page .main .social-icons a p {
-  word-wrap: break-word;
-}
+  word-break: break-word;
+}*/
+
